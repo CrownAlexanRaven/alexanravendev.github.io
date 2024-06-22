@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Comic_Sans11'; 
+    src: url('/fonts/comicsans.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Bradley_Hand11'; 
+    src: url('/fonts/bradley.ttf') format('truetype');
+}
+
+body {
+	background-color: black;
+}
+
+p, span {
+	font-family: "Comic_Sans11";
+} 
+
+h1 {
+	font-family: "Bradley_Hand11";
+}
+
+h1, p, span {
+	color: whitesmoke;
+} /**/
